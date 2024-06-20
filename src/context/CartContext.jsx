@@ -16,7 +16,7 @@ export const CartProvider = ({ children }) => {
                 );
             } else {
                 return [...prevCart, { ...item, quantity: 1 }];
-            }
+            }   
         });
     };
     const removeItemFromCart = (itemId) => {

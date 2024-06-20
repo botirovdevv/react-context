@@ -16,7 +16,7 @@ const Products = () => {
                 <div key={item.id}>
                     <h1>{item.name}</h1>
                     <span>{item.price}</span>
-                    <button onClick={() =>addToCart(item)}>add to cart</button>
+                    <button className='btn' onClick={() =>addToCart(item)}>add to cart</button>
                 </div>
             ))
         }
